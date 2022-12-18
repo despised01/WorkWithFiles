@@ -10,10 +10,10 @@ namespace Task1
 
             string dirPath = @"C:\SkillFactory\WorkWithFiles";
 
-            FolderCleaner(dirPath);
+            DirectoryCleaner(dirPath);
         }
 
-        static void FolderCleaner(string dirPath)
+        static void DirectoryCleaner(string dirPath)
         {
             if (Directory.Exists(dirPath))
             {
